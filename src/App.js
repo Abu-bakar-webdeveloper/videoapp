@@ -11,7 +11,7 @@ const App = () => (
         <Route path="/" exact element={<Feed />} />
         <Route path="/video/:id" exact element={<VideoDetail />} />
         <Route path="/Channel/:id" exact element={<ChannelDetail />} />
-        <Route path="/search/:searchTerm" exact element={<VideoDetail />} />
+        <Route path="/search/:searchTerm" exact element={<SearchFeed />} />
       </Routes>
     </Box>
   </BrowserRouter>
